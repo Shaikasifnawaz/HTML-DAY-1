@@ -1,0 +1,663 @@
+                                                                                 GUVI TASK HTML DAY-1
+
+
+
+1) Fix the bugs in below snippet:
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+    
+  -->  After Bugging:
+
+
+    <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <title>Document</title>
+        </head>
+            <body>
+               
+    <h1>guvi</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div>
+            <div>
+               <p> Guvi Geek Network</p>
+            </div>
+        </body>
+    </html>
+
+
+  2)Try the below one
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+    
+ -->   after fixing:
+     <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+    </head>
+    <body>
+     <h1>guvi</h1> 
+     <div>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div>
+            <div>
+              <p>  Guvi Geek Network</p>
+            </div>
+ 
+3)Design a contact us form with all fields as required.
+  
+--->CODE
+   <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assignment.css">
+        <title>Contact us Page</title>
+    </head>
+    <body>
+      <div class="contact-field">
+<form>
+    <input type="text " class="input-field" placeholder="Your name">
+
+    <input type="text " class="input-field" placeholder="Your Email">
+
+    <input type="text " class="input-field" placeholder="Subject">
+    <textarea type="text " class="input-field" placeholder="Feel free to  contact "></textarea>
+    <button type="button" class="click">Click to contact </button>
+</form>
+
+      </div>  
+    </body>
+    </html>
+
+    -----------------------------------------------------------CSS PART---------------------------------------------------------
+ ---->CODE
+    .contact-field{
+ width:400px; 
+ background-color: aqua;
+ hieght:500px; 
+ margin-top:10px;
+ margin-left: 320px;
+ 
+}
+body{
+    background-image: linear-gradient(
+        to right top, #ea178f, #da4ab2, #c568cd, #ad81df, #9794e7, #84a4f1, #73b2f7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-family: sans-serif;
+    top:0%;
+    bottom:0%;
+    position:absolute;
+    margin-bottom: 200px ;
+    background-color: hotpink;
+}
+form{
+    margin:35px;
+}
+.input-field{
+    width:250px;
+    height: 40px;
+    margin-top:20px;
+    padding-left:0px;
+    padding-right: 10px;
+    border: 1px solid crimson;
+    border-radius: 14px;
+    outline:none;
+    text-align: center;
+}
+.textarea-field{
+    hieght:150px;
+    padding-left: 10px;
+}
+.click{
+    border-radius: 20px;
+    color:white;
+    margin-top:18px;
+padding:10px;
+background-color: green;
+font-size: 12px;
+
+}
+
+ 
+4)Use certain HTML elements to display the following in a HTML page.
+Programming Language
+JavaScript
+Angular
+React
+Vue.js
+Python
+Django Framework
+Flask Framework
+Java
+Spring
+Maven
+Hibernate
+Database
+MySQL
+MongoDB
+Cansandra
+
+--->CODE
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-4</title>
+  </head>
+  <body>
+    <h1>List</h1>
+    <ul>
+      <li>Programming Language</li>
+      <ul>
+        <li>JavaScript</li>
+        <ol type="a">
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+          </ol>
+      </ul>
+      <ul>
+        <li>Python</li>
+        <ol type="a">
+            <li>Django Framework</li>
+            <li>Flask Framework</li>
+            
+          </ol>
+      </ul>
+      <ul>
+        <li>Java</li>
+        <ol type="a">
+            <li>Spring</li>
+            <li>Maven</li>
+            <li>Hibernate</li>
+            
+          </ol>
+      </ul>
+    </ul>
+    <ul>
+        <li>Database</li>
+        <ul>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Casandra</li>
+              
+            
+        </ul>
+      </ul>
+  </body>
+</html>
+
+
+5)Create an element that helps you to open the https://google.com in separate new tab.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+</head>
+<body>
+    <a href="https://www.google.com/" target="_blank" title="click here to open in new tab">Google</a>
+</body>
+</html>
+
+
+6)In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label for="employee">Choose a Employee type</label>
+        <input type="radio" name="employee" value="Salaries">Salaried
+        <input type="radio" name="employee" value="Own Business">Own Business
+    </form>
+</body>
+</html>
+
+
+7)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-7</title>
+    <style>
+         body {
+            background-color: #000;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        form{
+            background-color: #fff;
+            padding: 10px;
+           
+            border: 2px solid black;
+        }
+        .container {
+            background-color: #fff;
+            padding: 10px;
+            max-width:400px;
+        }
+        .heading {
+            color:#fff; 
+            background-color:red;
+            padding: 5px;
+            margin:0px;
+        }
+        input {
+            border: none;
+            border-bottom: 2px solid black;
+            text-align: center;
+            font-style: italic;
+            margin:2px;
+        }
+        .name {
+            display:flex;
+            justify-content:space-between;
+        }
+
+        .check {
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+       <form action="#" method="post">
+         <h3 class="heading">Yes! I want to subscribe to <i>Mag-O-Zine</i></h3>
+         <div class="name">
+            <div><input type="text" value="Joe"><br>First Name</div>
+            <div><input type="text" value="Schmegeggie"><br>Last Name</div>
+        </div>
+        <div class="address">
+            <input type="text" style="width:100%" value="1001 Washington Street"><br>Address
+        </div>
+        <div class="name">
+            <div><input type="text" value="Awfown" style="width:35%"><br>City</div>
+            <div><input type="text" value="CA" style="width:30%"><br>State</div>
+            <div><input type="text" value="99999" style="width:30%" ><br>Zip</div>
+        </div>
+
+        <div class="check">
+        <b>Subscribe for: </b>
+        
+        <input type="checkbox" checked>
+        <span class="checkmark"></span>
+        <label class="container1"><b>1 year ($19.95)</b></label>
+        <input type="checkbox" ><b>2 years ($35.00)</b><br>
+    </div>
+        <div class="check">
+            <b>Send me more information about:</b> <br>
+        <input type="checkbox" checked><b>Computer-Zine</b><br>
+        <input type="checkbox" ><b>Fishing-Zine</b><br>
+        <input type="checkbox" checked><b>Cat-O-Zine</b>
+    </div>
+       </form>
+   </div> 
+</body>
+</html>
+
+
+8)Use the table tag to design given image Click here.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            background-color: #000;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        .table{
+            background-color: #fff;
+            padding:10px;
+            max-width: 700px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px solid black;
+            padding:15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+    <p>Health Chart</p>
+    <table  width="600">
+       <tr>
+           <td rowspan="2">State of Health</td>
+           <td colspan="2">Fasting Value</td>
+           <td>After Eating</td>
+       </tr>
+       <tr>
+           <td>Minimum</td>
+           <td>Maximum</td>
+           <td>2 hours after eating</td>
+       </tr>
+       <tr>
+           <td>Healthy</td>
+           <td>70</td>
+           <td>100</td>
+           <td>Less than 140</td>
+       </tr>
+       <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+    </tr>
+    <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
+
+
+9)Write HTML input tags snippet to show default values for all Form elements.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+    <h1>Input tags with default values</h1>
+    <form>
+        <label for="text">Text</label><br>
+         <input type="text" name="firstName" placeholder="type text" value="firstname"><br><br>
+
+         <label for="phone">Phone</label><br>
+        <input type="tel" name="phone" placeholder="type phone" value="123456789"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="Email" placeholder=" type email" value="test@gmail.com"><br><br>
+
+        <label for="radio">Gender(type Radio)</label><br>
+        <input type="radio" name="radio"  value="male" checked>Male
+        <input type="radio" name="radio" value="female">Female<br><br>
+
+        <label for="date">Date</label><br>
+        <input type="date" name="date" value="10/10/2021" ><br><br>
+
+        <label for="number">Number</label><br>
+        <input type="number" name="num" placeholder="type number" value="100"><br><br>
+
+        <label for="checkbox">Checkbox</label><br>
+        <input type="checkbox" name="checkbox" checked >Yes
+        <input type="checkbox" name="checkbox" >No<br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="password" placeholder="***" value="******"><br><br>
+
+        <label for="search">search</label><br>
+        <input type="search" name="search" value="search" ><br><br>
+
+        <label for="File">Upload</label><br>
+        <input type="file" name="file" ><br><br>
+
+        <label for="color">Choose a color</label><br>
+        <input type="color" name="color" ><br><br>
+        
+        <label for="range">Choose a range</label><br>
+        <input type="range" name="range" ><br><br>
+
+        <label for="date-local">Local Date</label><br>
+        <input type="datetime-local" name="date-local" ><br><br>
+
+        <label for="image">Image</label><br>
+        <input type="image" name="image" alt="image" src="https://images.unsplash.com/photo-1637730826933-54287f79e1c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="300" height="300" ><br><br>
+         
+        <label for="month">Month</label><br>
+        <input type="month" name="month" ><br><br>
+ 
+        <label for="week">Week</label><br>
+        <input type="week" name="week" ><br><br>
+ 
+        <label for="time">Time</label><br>
+        <input type="time" name="time" ><br><br>
+
+        <label for="time">Time</label><br>
+        <input type="time" name="time" ><br><br>
+
+        <label for="hidden">Hidden</label><br>
+        <input type="hidden" name="hidden" value="hidden"><br><br>
+
+        <label for="homepage">URL</label><br>
+        <input type="url" name="homepage" value="https://www.google.com/"><br><br>
+
+        <input type="button" value="Button">
+
+        <input type="RESET">
+
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+
+10)In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-10</title>
+</head>
+<body>
+    <p ><mark>HTML & CSS is awesome</mark></p>
+</body>
+</html>
+
+
+11)Create an HTML page, which should contain all types of input elements.
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+    <h1>All types of HTML Input</h1>
+    <form>
+        <label for="text">Text</label><br>
+         <input type="text" name="firstName" placeholder="type text" ><br><br>
+
+         <label for="phone">Phone</label><br>
+        <input type="tel" name="phone" placeholder="type phone"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="Email" placeholder=" type email"><br><br>
+
+        <label for="radio">Gender(type Radio)</label><br>
+        <input type="radio" name="radio">Male
+        <input type="radio" name="radio">Female<br><br>
+
+        <label for="date">Date</label><br>
+        <input type="date" name="date" ><br><br>
+
+        <label for="number">Number</label><br>
+        <input type="number" name="num" placeholder="type number"><br><br>
+
+        <label for="checkbox">Checkbox</label><br>
+        <input type="checkbox" name="checkbox" >Yes
+        <input type="checkbox" name="checkbox" >No<br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="password" placeholder="***"><br><br>
+
+        <label for="search">search</label><br>
+        <input type="search" name="search" ><br><br>
+
+        <label for="File">Upload</label><br>
+        <input type="file" name="file" ><br><br>
+
+        <label for="color">Choose a color</label><br>
+        <input type="color" name="color" ><br><br>
+        
+        <label for="range">Choose a range</label><br>
+        <input type="range" name="range" ><br><br>
+
+        <label for="date-local">Local Date</label><br>
+        <input type="datetime-local" name="date-local" ><br><br>
+
+        <label for="image">Image</label><br>
+        <input type="image" name="image" alt="image" src="https://images.unsplash.com/photo-1637730826933-54287f79e1c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="300" height="300" ><br><br>
+         
+        <label for="month">Month</label><br>
+        <input type="month" name="month" ><br><br>
+ 
+        <label for="week">Week</label><br>
+        <input type="week" name="week" ><br><br>
+ 
+        <label for="time">Time</label><br>
+        <input type="time" name="time" ><br><br>
+
+        <label for="time">Time</label><br>
+        <input type="time" name="time" ><br><br>
+
+        <label for="hidden">Hidden</label><br>
+        <input type="hidden" name="hidden" value="hidden"><br><br>
+
+        <label for="homepage">URL</label><br>
+        <input type="url" name="homepage" ><br><br>
+
+        <input type="button" value="Button">
+
+        <input type="RESET">
+
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
